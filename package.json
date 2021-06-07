@@ -1,0 +1,29 @@
+{
+  "name": "@void206551/mwl-api",
+  "version": "1.0.0",
+  "description": "A Node wrapper for My Waifu List API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "anime",
+    "waifu",
+    "api"
+  ],
+  "author": "void206551",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "2.3.1"
+  },
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
